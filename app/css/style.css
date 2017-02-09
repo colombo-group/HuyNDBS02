@@ -1,0 +1,109 @@
+@font-face {
+  font-family: bebasneue;
+  src: url(../fonts/BebasNeue.otf); }
+
+@font-face {
+  font-family: ptsan;
+  src: url(../fonts/PTC55F.ttf); }
+
+@font-face {
+  font-family: cambri;
+  src: url(../fonts/Cambria.ttf); }
+
+@font-face {
+  font-family: hevertical;
+  src: url("../fonts/HelveticaNeueLTStd-UltLt.otf"); }
+
+.body {
+  margin: 0 auto;
+  width: 1000px; }
+
+header {
+  margin: 0px;
+  font-family: bebasneue; }
+  header .logo h1 {
+    margin-top: 30px;
+    font-size: 40px;
+    margin-bottom: 0; }
+  header .logo p {
+    font-family: ptsan; }
+  header .nav li {
+    padding-left: 0px;
+    padding-right: 0px; }
+    header .nav li a {
+      font-size: 15px;
+      color: black !important;
+      font-weight: bold !important;
+      padding-top: 30px !important;
+      font-family: hevertical; }
+    header .nav li:hover {
+      background: #E04C56; }
+    header .nav li:hover a {
+      color: white !important; }
+
+.banner img {
+  width: 100%; }
+
+.banner .slogan {
+  position: relative; }
+  .banner .slogan p {
+    font-family: cambri;
+    position: absolute;
+    font-size: 21px;
+    top: 35px;
+    font-style: italic;
+    font-weight: normal; }
+
+.content h3 {
+  font-style: italic;
+  font-family: cambri;
+  margin-bottom: 40px; }
+
+.content .item {
+  margin-bottom: 40px; }
+
+.footer {
+  color: white;
+  padding: 0px !important;
+  background: #E04C56;
+  margin-top: 100px; }
+  .footer .bio {
+    position: relative; }
+    .footer .bio .bio-img {
+      position: absolute;
+      top: -57px; }
+    .footer .bio .name-img {
+      margin: 20px;
+      margin-bottom: 20px; }
+      .footer .bio .name-img .bio-name {
+        margin: 0px;
+        margin-bottom: 10px;
+        font-family: cambri;
+        font-style: italic;
+        font-size: 25px; }
+  .footer .img {
+    margin-top: 30px; }
+    .footer .img img {
+      margin: -6px; }
+  .footer .skills {
+    margin-top: 30px;
+    font-family: cambri; }
+    .footer .skills .img-width {
+      width: 200px;
+      margin-left: 20px; }
+  .footer .bio-info {
+    font-family: ptsan;
+    font-size: 12px;
+    margin-bottom: 30px; }
+
+.copyright {
+  background: #2C2C2C;
+  height: 40px; }
+  .copyright .text {
+    width: 100%; }
+    .copyright .text span {
+      color: white;
+      text-align: left;
+      color: #8F8F8F;
+      font-size: 12px;
+      line-height: 40px; }
