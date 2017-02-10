@@ -175,6 +175,49 @@ header {
       font-size: 12px;
       line-height: 40px; }
 
+@media only screen and (max-width: 1024px) {
+  .footer {
+    height: auto;
+    width: 100%; }
+    .footer .bio {
+      position: relative; }
+      .footer .bio .bio-img {
+        position: absolute;
+        top: -42px; }
+      .footer .bio .name-img {
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 20px; }
+        .footer .bio .name-img .bio-name {
+          margin: 0px;
+          margin-bottom: 5px;
+          font-family: cambri;
+          font-style: italic;
+          font-size: 20px; }
+    .footer .img {
+      position: relative;
+      margin-top: 0px; }
+      .footer .img img {
+        margin-top: 10px;
+        margin-right: 20px; }
+      .footer .img span {
+        position: absolute;
+        top: 20px;
+        left: 50px;
+        font-size: 20px; }
+    .footer .skills {
+      margin-top: -10px;
+      font-family: cambri; }
+      .footer .skills .img-width {
+        width: 200px;
+        margin-left: 20px; }
+    .footer .bio-info {
+      font-family: ptsan;
+      font-size: 12px;
+      margin-bottom: 30px; }
+  .copyright .text {
+    display: none; } }
+
 @media only screen and (max-width: 630px) {
   .footer .bio {
     position: relative; }

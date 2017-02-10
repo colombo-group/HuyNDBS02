@@ -60,6 +60,69 @@
 		}
 		}
 }
+@media only screen and (max-width: 1024px){
+.footer{
+	height:auto;
+	width:100%;
+	.bio{
+		position:relative;
+		.bio-img{
+		position: absolute;
+		top: -42px;
+		}
+		.name-img{
+			margin:0px;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			.bio-name{
+				margin:0px ; 
+				margin-bottom: 5px;
+				font-family: $cam-font;
+				font-style: italic;
+				font-size: 20px;
+			}
+		}
+	}
+	.img{
+	position:relative;
+	margin-top: 0px;
+	
+	img{
+			margin-top: 10px;
+			margin-right: 20px;
+
+		}
+	span{
+		position: absolute;
+		top: 20px;
+		left:50px;
+		font-size: 20px;
+		// font-weight: bold;
+		}
+	}
+	.skills{
+		margin-top: -10px;
+		font-family: $cam-font;
+		.img-width{
+			width: 200px;
+			margin-left: 20px;
+		}
+		
+	}
+	.bio-info{
+		font-family: $pt-font;
+		font-size: 12px;
+		margin-bottom: 30px;
+	}
+
+}
+.copyright{
+		.text{
+			display: none;
+		}
+	}
+
+}
 @media only screen and (max-width: 630px){
 .footer{
 	.bio{
