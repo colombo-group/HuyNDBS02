@@ -1,6 +1,11 @@
 .banner{
+	.container{
+		margin-top: 70px;
+	}
 	img{
-			width:100%;
+			width:1280px;
+			height: 204px;
+			overflow: visible;
 		}
 	.slogan{
 		position: relative;
@@ -8,9 +13,32 @@
 			font-family: $cam-font;
 			position: absolute;
 			font-size: 21px;
+			top:65px;
+			font-style: italic;
+			font-weight: normal;
+		}
+	}
+}
+@media only screen and (max-width: 630px){
+.banner{
+	.container{
+		margin-top: 40px;
+	}
+	img{
+			width:630px;
+			height: 150px;
+			overflow: visible;
+		}
+	.slogan{
+		position: relative;
+		p{
+			font-family: $cam-font;
+			position: absolute;
+			font-size: 19px;
 			top:35px;
 			font-style: italic;
 			font-weight: normal;
 		}
 	}
+}
 }

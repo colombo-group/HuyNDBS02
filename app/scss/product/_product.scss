@@ -3,8 +3,28 @@
 		font-style: italic;
 		font-family: $cam-font;
 		margin-bottom: 40px;
+		color:#424242;
 	}
 	.item{
 		margin-bottom: 40px;
 	}
+}
+@media only screen and (max-width:630px){
+.content{
+	h3{
+		font-style: italic;
+		font-family: $cam-font;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		color:#424242;
+	}
+	.item{
+		margin:0 auto;
+		margin-bottom: 40px;
+		img{
+			width: 80%; 	
+			margin:20px ;
+		}
+	}
+}	
 }

@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: hevertical;
-  src: url("../fonts/HelveticaNeueLTStd-UltLt.otf"); }
+  src: url("../fonts/HelveticaNeueLTStd-UltLtCn.otf"); }
 
 .body {
   margin: 0 auto;
@@ -27,22 +27,55 @@ header {
     margin-bottom: 0; }
   header .logo p {
     font-family: ptsan; }
+  header nav {
+    background: none !important; }
   header .nav li {
     padding-left: 0px;
     padding-right: 0px; }
-    header .nav li a {
-      font-size: 15px;
-      color: black !important;
-      font-weight: bold !important;
-      padding-top: 30px !important;
-      font-family: hevertical; }
     header .nav li:hover {
-      background: #E04C56; }
+      background: #E04C56 !important; }
+    header .nav li a {
+      font-size: 16px;
+      color: #424242;
+      font-weight: bold;
+      padding-top: 60px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-family: hevertical; }
     header .nav li:hover a {
       color: white !important; }
 
+@media only screen and (max-width: 630px) {
+  .body {
+    margin: 0 auto;
+    width: 630px; }
+  header .logo {
+    width: 100%;
+    border-bottom: 1px solid #cccccc; }
+    header .logo h1 {
+      margin-top: 30px;
+      font-size: 40px;
+      margin-bottom: 0; }
+    header .logo p {
+      font-family: ptsan; }
+  header .nav li {
+    float: left;
+    margin: 10px;
+    margin-left: 30px; }
+    header .nav li a {
+      font-size: 20px;
+      padding: 20px;
+      padding-bottom: 10px;
+      font-family: hevertical; } }
+
+.banner .container {
+  margin-top: 70px; }
+
 .banner img {
-  width: 100%; }
+  width: 1280px;
+  height: 204px;
+  overflow: visible; }
 
 .banner .slogan {
   position: relative; }
@@ -50,22 +83,55 @@ header {
     font-family: cambri;
     position: absolute;
     font-size: 21px;
-    top: 35px;
+    top: 65px;
     font-style: italic;
     font-weight: normal; }
+
+@media only screen and (max-width: 630px) {
+  .banner .container {
+    margin-top: 40px; }
+  .banner img {
+    width: 630px;
+    height: 150px;
+    overflow: visible; }
+  .banner .slogan {
+    position: relative; }
+    .banner .slogan p {
+      font-family: cambri;
+      position: absolute;
+      font-size: 19px;
+      top: 35px;
+      font-style: italic;
+      font-weight: normal; } }
 
 .content h3 {
   font-style: italic;
   font-family: cambri;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  color: #424242; }
 
 .content .item {
   margin-bottom: 40px; }
+
+@media only screen and (max-width: 630px) {
+  .content h3 {
+    font-style: italic;
+    font-family: cambri;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #424242; }
+  .content .item {
+    margin: 0 auto;
+    margin-bottom: 40px; }
+    .content .item img {
+      width: 80%;
+      margin: 20px; } }
 
 .footer {
   color: white;
   padding: 0px !important;
   background: #E04C56;
+  height: auto;
   margin-top: 100px; }
   .footer .bio {
     position: relative; }
@@ -107,3 +173,50 @@ header {
       color: #8F8F8F;
       font-size: 12px;
       line-height: 40px; }
+
+@media only screen and (max-width: 630px) {
+  .footer .bio {
+    position: relative; }
+    .footer .bio .bio-img {
+      position: absolute;
+      top: -60px; }
+    .footer .bio .name-img {
+      margin: 20px;
+      margin-left: -40px; }
+      .footer .bio .name-img .bio-name {
+        margin: 0px;
+        margin-bottom: 10px;
+        font-family: cambri;
+        font-style: italic;
+        font-size: 25px; }
+  .footer .img {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 30px; }
+    .footer .img img {
+      margin: -12px; }
+    .footer .img span {
+      position: absolute;
+      top: 20px;
+      left: 50px;
+      font-size: 20px; }
+  .footer .bio-info {
+    font-family: ptsan;
+    font-size: 13px;
+    margin-bottom: 30px; }
+  .skills-mobile {
+    background: #E04C56;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid white; }
+    .skills-mobile h2 {
+      margin-bottom: 20px; }
+    .skills-mobile img {
+      width: 300px; }
+    .skills-mobile .col-xs-1 {
+      font-size: 25px; }
+    .skills-mobile .col-xs-10 {
+      margin-top: 5px; }
+    .skills-mobile .row {
+      margin-bottom: 10px; } }
