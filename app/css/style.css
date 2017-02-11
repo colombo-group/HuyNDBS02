@@ -47,6 +47,27 @@ header {
     header .nav li:hover a {
       color: white !important; }
 
+@media only screen and (max-width: 982px) {
+  .body {
+    width: 100% !important; } }
+
+@media only screen and (max-width: 770px) {
+  header {
+    margin: 0px;
+    font-family: bebasneue; }
+    header .logo {
+      width: 100%;
+      border-bottom: 1px solid #cccccc; }
+    header .nav li {
+      float: left;
+      margin: 10px;
+      margin-left: 0px; }
+      header .nav li a {
+        font-size: 16px;
+        padding: 20px;
+        padding-bottom: 10px;
+        font-family: hevertical; } }
+
 @media only screen and (max-width: 630px) {
   .body {
     margin: 0 auto;
@@ -69,6 +90,46 @@ header {
       padding: 20px;
       padding-bottom: 10px;
       font-family: hevertical; } }
+
+@media only screen and (max-width: 600px) {
+  .body {
+    margin: 0 auto;
+    width: 100%; }
+  header {
+    margin: 0px;
+    font-family: bebasneue; }
+    header .logo {
+      width: 100%;
+      border-bottom: 1px solid #cccccc; }
+    header .nav li {
+      float: left;
+      margin: 10px;
+      margin-left: 0px; }
+      header .nav li a {
+        font-size: 16px;
+        padding: 20px;
+        padding-bottom: 10px;
+        font-family: hevertical; } }
+
+@media only screen and (max-width: 428px) {
+  .body {
+    margin: 0 auto;
+    width: 100%; }
+  header {
+    margin: 0px;
+    font-family: bebasneue; }
+    header .logo {
+      width: 100%;
+      border-bottom: 1px solid #cccccc; }
+    header .nav li {
+      float: left;
+      margin: 0px;
+      margin-left: 0px; }
+      header .nav li a {
+        font-size: 14px;
+        padding: 15px;
+        padding-bottom: 10px;
+        font-family: hevertical; } }
 
 .banner .container {
   margin-top: 70px; }
@@ -217,6 +278,55 @@ header {
       margin-bottom: 30px; }
   .copyright .text {
     display: none; } }
+
+@media only screen and (max-width: 982px) {
+  footer {
+    width: 100%;
+    background: #E04C56; }
+  .footer .bio {
+    position: relative; }
+    .footer .bio .bio-img {
+      position: absolute;
+      top: -60px; }
+    .footer .bio .name-img {
+      margin: 20px;
+      margin-left: -40px; }
+      .footer .bio .name-img .bio-name {
+        margin: 0px;
+        margin-bottom: 10px;
+        font-family: cambri;
+        font-style: italic;
+        font-size: 25px; }
+  .footer .img {
+    position: relative;
+    margin-top: 0px; }
+    .footer .img img {
+      margin: 20px; }
+    .footer .img span {
+      position: absolute;
+      top: 20px;
+      left: 50px;
+      font-size: 20px; }
+  .footer .bio-info {
+    font-family: ptsan;
+    font-size: 13px;
+    margin-bottom: 30px; }
+  .skills-mobile {
+    background: #E04C56;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid white; }
+    .skills-mobile h2 {
+      margin-bottom: 20px; }
+    .skills-mobile img {
+      width: 300px; }
+    .skills-mobile .col-xs-1 {
+      font-size: 25px; }
+    .skills-mobile .col-xs-10 {
+      margin-top: 5px; }
+    .skills-mobile .row {
+      margin-bottom: 10px; } }
 
 @media only screen and (max-width: 630px) {
   .footer .bio {
