@@ -68,7 +68,7 @@ header {
         padding-bottom: 10px;
         font-family: hevertical; } }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 640px) {
   .body {
     margin: 0 auto;
     width: 630px; }
@@ -131,12 +131,28 @@ header {
         padding-bottom: 10px;
         font-family: hevertical; } }
 
+@media only screen and (max-width: 320px) {
+  header {
+    margin: 0px;
+    font-family: bebasneue; }
+    header .logo {
+      width: 100%;
+      border-bottom: 1px solid #cccccc; }
+    header .nav li {
+      float: left;
+      margin: 0px;
+      margin-left: 0px; }
+      header .nav li a {
+        font-size: 13px;
+        padding: 12px;
+        padding-bottom: 10px;
+        font-family: hevertical; } }
+
 .banner .container {
   margin-top: 70px; }
 
 .banner img {
-  width: 1280px;
-  height: 204px;
+  width: 100%;
   overflow: visible; }
 
 .banner .slogan {
@@ -145,26 +161,60 @@ header {
     font-family: cambri;
     position: absolute;
     font-size: 21px;
-    top: 65px;
+    top: 40px;
+    left: 30px;
     font-style: italic;
     font-weight: normal; }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 982px) {
+  .banner .slogan {
+    position: relative; }
+    .banner .slogan p {
+      font-size: 20px;
+      top: 40px; } }
+
+@media only screen and (max-width: 770px) {
+  .banner .slogan p {
+    font-size: 18px;
+    top: 40px; } }
+
+@media only screen and (max-width: 640px) {
   .banner .container {
     margin-top: 40px; }
   .banner img {
-    width: 630px;
-    height: 150px;
     overflow: visible; }
   .banner .slogan {
     position: relative; }
     .banner .slogan p {
       font-family: cambri;
       position: absolute;
-      font-size: 19px;
+      font-size: 17px;
       top: 35px;
       font-style: italic;
       font-weight: normal; } }
+
+@media only screen and (max-width: 600px) {
+  .banner .slogan p {
+    font-size: 15px;
+    top: 30px; } }
+
+@media only screen and (max-width: 500px) {
+  .banner .slogan p {
+    font-size: 15px;
+    top: 20px;
+    left: 0px; } }
+
+@media only screen and (max-width: 400px) {
+  .banner .slogan p {
+    font-size: 13px;
+    top: 10px;
+    left: 0px; } }
+
+@media only screen and (max-width: 320px) {
+  .banner .slogan p {
+    font-size: 10px;
+    top: 7px;
+    left: 0px; } }
 
 .content h3 {
   font-style: italic;
@@ -175,7 +225,7 @@ header {
 .content .item {
   margin-bottom: 40px; }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 640px) {
   .content h3 {
     font-style: italic;
     font-family: cambri;
@@ -186,8 +236,8 @@ header {
     margin: 0 auto;
     margin-bottom: 40px; }
     .content .item img {
-      width: 80%;
-      margin: 20px; } }
+      width: 100%;
+      margin: 0px; } }
 
 .footer {
   color: white;
@@ -328,7 +378,7 @@ header {
     .skills-mobile .row {
       margin-bottom: 10px; } }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 640px) {
   .footer .bio {
     position: relative; }
     .footer .bio .bio-img {
@@ -374,6 +424,100 @@ header {
       margin-top: 5px; }
     .skills-mobile .row {
       margin-bottom: 10px; } }
+
+@media only screen and (max-width: 600px) {
+  .footer .bio {
+    position: relative; }
+    .footer .bio .bio-img {
+      position: absolute;
+      width: 80%;
+      top: -60px; }
+    .footer .bio .name-img {
+      margin: 0px;
+      margin-left: -30px;
+      margin-bottom: 30px; }
+      .footer .bio .name-img .bio-name {
+        margin: 0px;
+        margin-bottom: 10px;
+        font-family: cambri;
+        font-style: italic;
+        font-size: 25px; } }
+
+@media only screen and (max-width: 500px) {
+  .footer .bio {
+    position: relative; }
+    .footer .bio .bio-img {
+      position: absolute;
+      width: 80%;
+      top: -60px; }
+    .footer .bio .name-img {
+      margin: 0px;
+      margin-left: -30px;
+      margin-bottom: 10px; }
+      .footer .bio .name-img .bio-name {
+        font-size: 20px; } }
+
+@media only screen and (max-width: 400px) {
+  .footer .bio {
+    position: relative; }
+    .footer .bio .bio-img {
+      position: absolute;
+      width: 100%;
+      top: -50px; }
+    .footer .bio .name-img {
+      margin: 0px;
+      margin-left: 0px;
+      margin-bottom: 10px; }
+      .footer .bio .name-img .bio-name {
+        font-size: 18px; }
+  .footer .img {
+    position: relative;
+    margin-top: -30px;
+    margin-bottom: 0px; }
+    .footer .img img {
+      margin: 0px; }
+    .footer .img span {
+      display: none; }
+  .footer .bio-info {
+    font-family: ptsan;
+    font-size: 13px;
+    margin-bottom: 30px; }
+  .skills-mobile {
+    background: #E04C56;
+    color: white;
+    border-top: 1px solid white; }
+    .skills-mobile h2 {
+      margin-bottom: 17px; }
+    .skills-mobile img {
+      width: 150px; }
+    .skills-mobile .col-xs-1 {
+      font-size: 20 	px; }
+    .skills-mobile .col-xs-10 {
+      margin-top: 5px; }
+    .skills-mobile .row {
+      margin-bottom: 10px; } }
+
+@media only screen and (max-width: 320px) {
+  .footer .bio {
+    position: relative; }
+    .footer .bio .bio-img {
+      position: absolute;
+      width: 100%;
+      top: -20px; }
+    .footer .bio .name-img {
+      margin: 10px;
+      margin-left: -10px;
+      margin-bottom: 0px; }
+      .footer .bio .name-img .bio-name {
+        font-size: 17px;
+        margin-bottom: 0px; }
+      .footer .bio .name-img span {
+        font-size: 13px; }
+  .footer .bio-info {
+    margin-top: 10px;
+    font-family: ptsan;
+    font-size: 11px;
+    margin-bottom: 10px; } }
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)

@@ -198,7 +198,7 @@ footer{
 }
 
 }
-@media only screen and (max-width: 630px){
+@media only screen and (max-width: 640px){
 .footer{
 	.bio{
 		position:relative;
@@ -265,5 +265,157 @@ footer{
 		margin-bottom:10px;
 	}
 	
+}
+}
+@media only screen and (max-width: 600px){
+.footer{
+	.bio{
+		position:relative;
+		.bio-img{
+		position: absolute;
+		width: 80%;
+		top: -60px;
+	}
+	.name-img{
+				margin:0px;
+				margin-left: -30px;
+				margin-bottom:30px;
+				// margin-bottom: 20px;
+				.bio-name{
+					margin:0px ; 
+					margin-bottom: 10px;
+					font-family: $cam-font;
+					font-style: italic;
+					font-size: 25px;
+				}
+			}
+	}
+
+}
+
+}
+@media only screen and (max-width: 500px){
+.footer{
+	.bio{
+		position:relative;
+		.bio-img{
+		position: absolute;
+		width: 80%;
+		top: -60px;
+	}
+	.name-img{
+				margin:0px;
+				margin-left: -30px;
+				margin-bottom:10px;
+				// margin-bottom: 20px;
+				.bio-name{
+					font-size: 20px;
+				}
+			}
+	}
+
+}
+
+}
+@media only screen and (max-width: 400px){
+.footer{
+	.bio{
+		position:relative;
+		.bio-img{
+		position: absolute;
+		width: 100%;
+		top: -50px;
+	}
+	.name-img{
+				margin:0px;
+				margin-left: 0px;
+				margin-bottom:10px;
+				// margin-bottom: 20px;
+				.bio-name{
+					font-size: 18px;
+				}
+			}
+	}
+	.img{
+		position:relative;
+		margin-top: -30px;
+		margin-bottom: 0px;
+			img{
+				margin: 0px;
+
+			}
+		span{
+			// 
+			display: none;
+			// font-weight: bold;
+		}
+	}
+	.bio-info{
+		font-family: $pt-font;
+		font-size: 13px;
+		margin-bottom: 30px;
+		// font-weight: 100;
+	}
+
+}
+.skills-mobile{
+	background:$background-footer;
+	color: white;
+	// padding-top:30px;
+	// padding-bottom:30px;
+	border-top:1px solid white;
+	h2{
+		margin-bottom:17px;
+	}
+	img{
+		width: 150px;
+	}
+	.col-xs-1{
+		// font-weight: bold;
+		font-size: 20 	px;
+	}
+	.col-xs-10{
+		margin-top: 5px;
+	}
+	.row{
+		margin-bottom:10px;
+	}
+	
+}
+
+}
+@media only screen and (max-width: 320px){
+.footer{
+	.bio{
+		position:relative;
+		.bio-img{
+		position: absolute;
+		width: 100%;
+		top: -20px;
+	}
+	.name-img{
+				margin:10px;
+				margin-left: -10px;
+				margin-bottom:0px;
+				// margin-bottom: 20px;
+				.bio-name{
+					font-size: 17px;
+					margin-bottom: 0px;
+				}
+				span{
+
+					font-size: 13px;
+				}
+			}
+	}
+	
+	.bio-info{
+		margin-top: 10px;
+		font-family: $pt-font;
+		font-size: 11px;
+		margin-bottom: 10px;
+		// font-weight: 100;
+	}
+
 }
 }
